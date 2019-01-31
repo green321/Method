@@ -52,7 +52,11 @@ namespace Method
         private static string Recommend_Name(string get_name)
         {
             string name_you_entered = get_name;
+            Console.WriteLine("__________________________________________________________________");
+            Console.WriteLine(" ");
             Console.WriteLine("Hello " + get_name + " !");
+            Console.WriteLine(" ");
+            Console.WriteLine("__________________________________________________________________");
 
             return name_you_entered;
 
