@@ -37,7 +37,7 @@ namespace Method
 
             catch
             {
-                Console.WriteLine("Please use the correctm name format");
+                Console.WriteLine("Please use the correct name format");
                 Console.WriteLine("Press any key to exit the program and try again....");
                 Console.ReadKey(true);
             }// End of catch
